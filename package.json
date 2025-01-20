@@ -1,20 +1,37 @@
 {
   "name": "zhrx-code-review",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "zhrx--前端编码规范工程化",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "init": "pnpm install --no-frozen-lockfile",
     "submit": "bash submit.sh",
     "deploy": "bash deploy.sh",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "clean": "lerna clean && rm -rf node_modules",
+    "test": "lerna run test",
+    "publish": "lerna publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "zhrx"
+  ],
+  "author": "durant123",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "husky": "^8.0.3",
+    "lerna": "6.6.2",
+    "pnpm": "^9.14.2",
     "vuepress": "^1.9.9",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "commitlint-config-zhrx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "zhrx Git规范",
+  "keywords": [
+    "zhrx"
+  ],
+  "author": "durant123",
+  "homepage": "https://github.com/forfreeagainst/zhrx-code-review#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfreeagainst/zhrx-code-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forfreeagainst/zhrx-code-review/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}

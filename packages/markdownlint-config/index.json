@@ -105,7 +105,11 @@
       "URLs",
       "URIs",
       "Visual Studio Code",
-      "scss"
+      "scss",
+      "babel",
+      "react",
+      "jquery",
+      "es6"
     ],
     "code_blocks": false
   }

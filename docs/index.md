@@ -16,13 +16,13 @@ features:
 
 ## :star: 痛点
 
-1. 项目中的编码异味，导致代码阅读成本、维护成本上升。（eg:无效变量、错误代码等）
-2. 代码风格不一致，导致git冲突特别多（eg:缩进，末尾有分号或逗号等）
-3. 从已有的项目，找各种配制文件，进行复制粘贴。
-4. svn上用word写前端开发手册，编写体验差，阅读体验差。
+- 项目中的编码异味，导致代码阅读成本、维护成本上升。（eg:无效变量、错误代码等）
+- 代码风格不一致，导致git冲突特别多（eg:缩进，末尾有分号或逗号等）
+- 从已有的项目，找各种配制文件，进行复制粘贴。
+- svn上用word写前端开发手册，编写体验差，阅读体验差。
 
 ## :bulb: 涉及知识
 
-1. lerna和pnpm
-2. eslint、stylelint、markdownlint、prettier、cspell
-3. husky
+- lerna和pnpm
+- eslint、stylelint、markdownlint、prettier、cspell
+- husky

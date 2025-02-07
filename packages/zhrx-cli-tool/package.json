@@ -1,6 +1,6 @@
 {
   "name": "zhrx-cli-tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "zhrx的前端编码规范脚手架",
   "main": "lib/index.js",
   "bin": "lib/cli.js",

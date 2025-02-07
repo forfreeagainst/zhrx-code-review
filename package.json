@@ -16,7 +16,8 @@
     "test": "lerna run test",
     "publish": "lerna publish",
     "mdlint": "markdownlint **/*.md --ignore node_modules",
-    "lint": "markdownlint **/*.md"
+    "lint": "markdownlint **/*.md",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [
     "zhrx"
@@ -31,6 +32,9 @@
     "vuepress": "^1.9.9",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
   },
   "publishConfig": {
     "access": "public",

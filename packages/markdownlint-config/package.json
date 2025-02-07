@@ -1,6 +1,6 @@
 {
   "name": "markdownlint-config-zhrx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.json",
   "description": "zhrx markdown文件规范",
   "keywords": [

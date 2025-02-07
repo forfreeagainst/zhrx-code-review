@@ -156,7 +156,7 @@ program
   .command('more')
   .description("了解更多")
   .action(() => {
-    log.info("lerna发包一定要改动的代码");
+    log.info("FETCH_ERROR 网络问题，重新发包");
   })
 
 program.parse(process.argv);

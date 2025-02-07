@@ -152,4 +152,11 @@ program
   .description(`更新 ${PKG_NAME} 至最新版本`)
   .action(() => update(true));
 
+program
+  .command('more')
+  .description("了解更多")
+  .action(() => {
+    log.info("lerna发包一定要改动的代码");
+  })
+
 program.parse(process.argv);

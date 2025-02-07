@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  }
+  },
+  "gitHead": "320a517d1ba70218d621799009b49c4fffe42e4e"
 }
